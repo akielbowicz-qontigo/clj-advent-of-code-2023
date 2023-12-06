@@ -14,3 +14,15 @@
    cd <root del projecto>
    lein new default advent-of-code --to-dir .
    ```
+
+1. Para ejecutar los tests
+   ```
+   lein test
+   ```
+
+1. Para iniciar una repl
+
+   ```
+   lein repl
+   ```
+   

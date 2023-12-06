@@ -5,11 +5,8 @@
   [x]
   (println x "Hello, World!"))
 
-
-
-
 (defn dia-1
   "resuelve el problema del dia 1"
   [input]
-  "A")
+  "100")
    
