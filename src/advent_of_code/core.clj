@@ -19,3 +19,11 @@
   (map procesar-linea (clojure.string/split-lines input))
   ))
    
+(defn procesar-linea-p2
+  [linea]
+  linea)
+
+(defn dia-1-parte-2
+  ""
+  [input]
+  input)
