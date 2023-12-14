@@ -23,7 +23,7 @@ zoneight234
 
 (deftest test-dia-1-parte-2
   (testing "segunda parte"
-    (is (= (dia-1-parte-2 input-dia-1-parte-2) -1))))
+    (is (= (dia-1-parte-2 input-dia-1-parte-2) 281))))
 
 (deftest test-dia-1-parte-2-l1
   (testing "primer linea"
@@ -35,20 +35,20 @@ zoneight234
 
 (deftest test-dia-1-parte-2-l3
   (testing "3ra linea"
-    (is (= (procesar-linea-p2 (nth (clojure.string/split-lines input-dia-1-parte-2) 2)) 83))))
+    (is (= (procesar-linea-p2 (nth (clojure.string/split-lines input-dia-1-parte-2) 2)) 13))))
 
 (deftest test-dia-1-parte-2-l4
   (testing "4ta linea"
-    (is (= (procesar-linea-p2 (nth (clojure.string/split-lines input-dia-1-parte-2) 3)) 83))))
+    (is (= (procesar-linea-p2 (nth (clojure.string/split-lines input-dia-1-parte-2) 3)) 24))))
 
 (deftest test-dia-1-parte-2-l5
   (testing "5ta linea"
-    (is (= (procesar-linea-p2 (nth (clojure.string/split-lines input-dia-1-parte-2) 4)) 83))))
+    (is (= (procesar-linea-p2 (nth (clojure.string/split-lines input-dia-1-parte-2) 4)) 42))))
 
 (deftest test-dia-1-parte-2-l6
   (testing "6ta linea"
-    (is (= (procesar-linea-p2 (nth (clojure.string/split-lines input-dia-1-parte-2) 5)) 83))))
+    (is (= (procesar-linea-p2 (nth (clojure.string/split-lines input-dia-1-parte-2) 5)) 14))))
 
 (deftest test-dia-1-parte-2-l7
   (testing "7ma linea"
-    (is (= (procesar-linea-p2 (nth (clojure.string/split-lines input-dia-1-parte-2) 6)) 83))))
+    (is (= (procesar-linea-p2 (nth (clojure.string/split-lines input-dia-1-parte-2) 6)) 76))))
