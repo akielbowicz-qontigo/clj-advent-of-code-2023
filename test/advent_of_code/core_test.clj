@@ -52,3 +52,8 @@ zoneight234
 (deftest test-dia-1-parte-2-l7
   (testing "7ma linea"
     (is (= (procesar-linea-p2 (nth (clojure.string/split-lines input-dia-1-parte-2) 6)) 76))))
+
+(deftest test-dia-1-parte-2-bug
+   (testing "bug 1 - palabra repetida"
+     (is (= (procesar-linea-p2 
+"bcmqn9onecnrzhsrsgzggzhtskjeightbz6khfhccktwonenrj" 91))))
